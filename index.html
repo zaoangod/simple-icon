@@ -12,7 +12,19 @@
             box-sizing: border-box;
         }
 
-        img {
+        .item {
+            width: 120px;
+            display: inline-flex;
+            align-items: center;
+            justify-items: center;
+            flex-direction: column;
+        }
+
+        .item span {
+            font-size: 0.75rem;
+        }
+
+        .item img {
             width: 60px;
             height: 60px;
             display: inline;
@@ -21,293 +33,294 @@
     </style>
 </head>
 <body>
-<div style="text-align: left;">
-    <img src="./icon/activity.svg" alt="activity">
-    <img src="./icon/airplay.svg" alt="airplay">
-    <img src="./icon/alert-circle.svg" alt="alert-circle">
-    <img src="./icon/alert-octagon.svg" alt="alert-octagon">
-    <img src="./icon/alert-triangle.svg" alt="alert-triangle">
-    <img src="./icon/align-center.svg" alt="align-center">
-    <img src="./icon/align-justify.svg" alt="align-justify">
-    <img src="./icon/align-left.svg" alt="align-left">
-    <img src="./icon/align-right.svg" alt="align-right">
-    <img src="./icon/anchor.svg" alt="anchor">
-    <img src="./icon/aperture.svg" alt="aperture">
-    <img src="./icon/archive.svg" alt="archive">
-    <img src="./icon/arrow-down.svg" alt="arrow-down">
-    <img src="./icon/arrow-down-circle.svg" alt="arrow-down-circle">
-    <img src="./icon/arrow-down-left.svg" alt="arrow-down-left">
-    <img src="./icon/arrow-down-right.svg" alt="arrow-down-right">
-    <img src="./icon/arrow-left.svg" alt="arrow-left">
-    <img src="./icon/arrow-left-circle.svg" alt="arrow-left-circle">
-    <img src="./icon/arrow-right.svg" alt="arrow-right">
-    <img src="./icon/arrow-right-circle.svg" alt="arrow-right-circle">
-    <img src="./icon/arrow-up.svg" alt="arrow-up">
-    <img src="./icon/arrow-up-circle.svg" alt="arrow-up-circle">
-    <img src="./icon/arrow-up-left.svg" alt="arrow-up-left">
-    <img src="./icon/arrow-up-right.svg" alt="arrow-up-right">
-    <img src="./icon/at-sign.svg" alt="at-sign">
-    <img src="./icon/award.svg" alt="award">
-    <img src="./icon/bar-chart.svg" alt="bar-chart">
-    <img src="./icon/bar-chart-2.svg" alt="bar-chart-2">
-    <img src="./icon/battery.svg" alt="battery">
-    <img src="./icon/battery-charging.svg" alt="battery-charging">
-    <img src="./icon/bell.svg" alt="bell">
-    <img src="./icon/bell-off.svg" alt="bell-off">
-    <img src="./icon/bluetooth.svg" alt="bluetooth">
-    <img src="./icon/bold.svg" alt="bold">
-    <img src="./icon/book.svg" alt="book">
-    <img src="./icon/book-open.svg" alt="book-open">
-    <img src="./icon/bookmark.svg" alt="bookmark">
-    <img src="./icon/box.svg" alt="box">
-    <img src="./icon/briefcase.svg" alt="briefcase">
-    <img src="./icon/calendar.svg" alt="calendar">
-    <img src="./icon/camera.svg" alt="camera">
-    <img src="./icon/camera-off.svg" alt="camera-off">
-    <img src="./icon/cast.svg" alt="cast">
-    <img src="./icon/check.svg" alt="check">
-    <img src="./icon/check-circle.svg" alt="check-circle">
-    <img src="./icon/check-square.svg" alt="check-square">
-    <img src="./icon/chevron-down.svg" alt="chevron-down">
-    <img src="./icon/chevron-left.svg" alt="chevron-left">
-    <img src="./icon/chevron-right.svg" alt="chevron-right">
-    <img src="./icon/chevron-up.svg" alt="chevron-up">
-    <img src="./icon/chevrons-down.svg" alt="chevrons-down">
-    <img src="./icon/chevrons-left.svg" alt="chevrons-left">
-    <img src="./icon/chevrons-right.svg" alt="chevrons-right">
-    <img src="./icon/chevrons-up.svg" alt="chevrons-up">
-    <img src="./icon/chrome.svg" alt="chrome">
-    <img src="./icon/circle.svg" alt="circle">
-    <img src="./icon/clipboard.svg" alt="clipboard">
-    <img src="./icon/clock.svg" alt="clock">
-    <img src="./icon/cloud.svg" alt="cloud">
-    <img src="./icon/cloud-drizzle.svg" alt="cloud-drizzle">
-    <img src="./icon/cloud-lightning.svg" alt="cloud-lightning">
-    <img src="./icon/cloud-off.svg" alt="cloud-off">
-    <img src="./icon/cloud-rain.svg" alt="cloud-rain">
-    <img src="./icon/cloud-snow.svg" alt="cloud-snow">
-    <img src="./icon/code.svg" alt="code">
-    <img src="./icon/codepen.svg" alt="codepen">
-    <img src="./icon/codesandbox.svg" alt="codesandbox">
-    <img src="./icon/coffee.svg" alt="coffee">
-    <img src="./icon/columns.svg" alt="columns">
-    <img src="./icon/command.svg" alt="command">
-    <img src="./icon/compass.svg" alt="compass">
-    <img src="./icon/copy.svg" alt="copy">
-    <img src="./icon/corner-down-left.svg" alt="corner-down-left">
-    <img src="./icon/corner-down-right.svg" alt="corner-down-right">
-    <img src="./icon/corner-left-down.svg" alt="corner-left-down">
-    <img src="./icon/corner-left-up.svg" alt="corner-left-up">
-    <img src="./icon/corner-right-down.svg" alt="corner-right-down">
-    <img src="./icon/corner-right-up.svg" alt="corner-right-up">
-    <img src="./icon/corner-up-left.svg" alt="corner-up-left">
-    <img src="./icon/corner-up-right.svg" alt="corner-up-right">
-    <img src="./icon/cpu.svg" alt="cpu">
-    <img src="./icon/credit-card.svg" alt="credit-card">
-    <img src="./icon/crop.svg" alt="crop">
-    <img src="./icon/crosshair.svg" alt="crosshair">
-    <img src="./icon/database.svg" alt="database">
-    <img src="./icon/delete.svg" alt="delete">
-    <img src="./icon/disc.svg" alt="disc">
-    <img src="./icon/divide.svg" alt="divide">
-    <img src="./icon/divide-circle.svg" alt="divide-circle">
-    <img src="./icon/divide-square.svg" alt="divide-square">
-    <img src="./icon/dollar-sign.svg" alt="dollar-sign">
-    <img src="./icon/download.svg" alt="download">
-    <img src="./icon/download-cloud.svg" alt="download-cloud">
-    <img src="./icon/droplet.svg" alt="droplet">
-    <img src="./icon/edit.svg" alt="edit">
-    <img src="./icon/edit-2.svg" alt="edit-2">
-    <img src="./icon/edit-3.svg" alt="edit-3">
-    <img src="./icon/external-link.svg" alt="external-link">
-    <img src="./icon/eye.svg" alt="eye">
-    <img src="./icon/eye-off.svg" alt="eye-off">
-    <img src="./icon/facebook.svg" alt="facebook">
-    <img src="./icon/fast-forward.svg" alt="fast-forward">
-    <img src="./icon/feather.svg" alt="feather">
-    <img src="./icon/figma.svg" alt="figma">
-    <img src="./icon/file.svg" alt="file">
-    <img src="./icon/file-minus.svg" alt="file-minus">
-    <img src="./icon/file-plus.svg" alt="file-plus">
-    <img src="./icon/file-text.svg" alt="file-text">
-    <img src="./icon/film.svg" alt="film">
-    <img src="./icon/filter.svg" alt="filter">
-    <img src="./icon/flag.svg" alt="flag">
-    <img src="./icon/folder.svg" alt="folder">
-    <img src="./icon/folder-minus.svg" alt="folder-minus">
-    <img src="./icon/folder-plus.svg" alt="folder-plus">
-    <img src="./icon/framer.svg" alt="framer">
-    <img src="./icon/frown.svg" alt="frown">
-    <img src="./icon/gift.svg" alt="gift">
-    <img src="./icon/git-branch.svg" alt="git-branch">
-    <img src="./icon/git-commit.svg" alt="git-commit">
-    <img src="./icon/git-merge.svg" alt="git-merge">
-    <img src="./icon/git-pull-request.svg" alt="git-pull-request">
-    <img src="./icon/github.svg" alt="github">
-    <img src="./icon/gitlab.svg" alt="gitlab">
-    <img src="./icon/globe.svg" alt="globe">
-    <img src="./icon/grid.svg" alt="grid">
-    <img src="./icon/hard-drive.svg" alt="hard-drive">
-    <img src="./icon/hash.svg" alt="hash">
-    <img src="./icon/headphones.svg" alt="headphones">
-    <img src="./icon/heart.svg" alt="heart">
-    <img src="./icon/help-circle.svg" alt="help-circle">
-    <img src="./icon/hexagon.svg" alt="hexagon">
-    <img src="./icon/home.svg" alt="home">
-    <img src="./icon/image.svg" alt="image">
-    <img src="./icon/inbox.svg" alt="inbox">
-    <img src="./icon/info.svg" alt="info">
-    <img src="./icon/instagram.svg" alt="instagram">
-    <img src="./icon/italic.svg" alt="italic">
-    <img src="./icon/key.svg" alt="key">
-    <img src="./icon/layers.svg" alt="layers">
-    <img src="./icon/layout.svg" alt="layout">
-    <img src="./icon/life-buoy.svg" alt="life-buoy">
-    <img src="./icon/link.svg" alt="link">
-    <img src="./icon/link-2.svg" alt="link-2">
-    <img src="./icon/linkedin.svg" alt="linkedin">
-    <img src="./icon/list.svg" alt="list">
-    <img src="./icon/loader.svg" alt="loader">
-    <img src="./icon/lock.svg" alt="lock">
-    <img src="./icon/log-in.svg" alt="log-in">
-    <img src="./icon/log-out.svg" alt="log-out">
-    <img src="./icon/mail.svg" alt="mail">
-    <img src="./icon/map.svg" alt="map">
-    <img src="./icon/map-pin.svg" alt="map-pin">
-    <img src="./icon/maximize.svg" alt="maximize">
-    <img src="./icon/maximize-2.svg" alt="maximize-2">
-    <img src="./icon/meh.svg" alt="meh">
-    <img src="./icon/menu.svg" alt="menu">
-    <img src="./icon/message-circle.svg" alt="message-circle">
-    <img src="./icon/message-square.svg" alt="message-square">
-    <img src="./icon/mic.svg" alt="mic">
-    <img src="./icon/mic-off.svg" alt="mic-off">
-    <img src="./icon/minimize.svg" alt="minimize">
-    <img src="./icon/minimize-2.svg" alt="minimize-2">
-    <img src="./icon/minus.svg" alt="minus">
-    <img src="./icon/minus-circle.svg" alt="minus-circle">
-    <img src="./icon/minus-square.svg" alt="minus-square">
-    <img src="./icon/monitor.svg" alt="monitor">
-    <img src="./icon/moon.svg" alt="moon">
-    <img src="./icon/more-horizontal.svg" alt="more-horizontal">
-    <img src="./icon/more-vertical.svg" alt="more-vertical">
-    <img src="./icon/mouse-pointer.svg" alt="mouse-pointer">
-    <img src="./icon/move.svg" alt="move">
-    <img src="./icon/music.svg" alt="music">
-    <img src="./icon/navigation.svg" alt="navigation">
-    <img src="./icon/navigation-2.svg" alt="navigation-2">
-    <img src="./icon/octagon.svg" alt="octagon">
-    <img src="./icon/package.svg" alt="package">
-    <img src="./icon/paperclip.svg" alt="paperclip">
-    <img src="./icon/pause.svg" alt="pause">
-    <img src="./icon/pause-circle.svg" alt="pause-circle">
-    <img src="./icon/pen-tool.svg" alt="pen-tool">
-    <img src="./icon/percent.svg" alt="percent">
-    <img src="./icon/phone.svg" alt="phone">
-    <img src="./icon/phone-call.svg" alt="phone-call">
-    <img src="./icon/phone-forwarded.svg" alt="phone-forwarded">
-    <img src="./icon/phone-incoming.svg" alt="phone-incoming">
-    <img src="./icon/phone-missed.svg" alt="phone-missed">
-    <img src="./icon/phone-off.svg" alt="phone-off">
-    <img src="./icon/phone-outgoing.svg" alt="phone-outgoing">
-    <img src="./icon/pie-chart.svg" alt="pie-chart">
-    <img src="./icon/play.svg" alt="play">
-    <img src="./icon/play-circle.svg" alt="play-circle">
-    <img src="./icon/plus.svg" alt="plus">
-    <img src="./icon/plus-circle.svg" alt="plus-circle">
-    <img src="./icon/plus-square.svg" alt="plus-square">
-    <img src="./icon/pocket.svg" alt="pocket">
-    <img src="./icon/power.svg" alt="power">
-    <img src="./icon/printer.svg" alt="printer">
-    <img src="./icon/radio.svg" alt="radio">
-    <img src="./icon/refresh-ccw.svg" alt="refresh-ccw">
-    <img src="./icon/refresh-cw.svg" alt="refresh-cw">
-    <img src="./icon/repeat.svg" alt="repeat">
-    <img src="./icon/rewind.svg" alt="rewind">
-    <img src="./icon/rotate-ccw.svg" alt="rotate-ccw">
-    <img src="./icon/rotate-cw.svg" alt="rotate-cw">
-    <img src="./icon/rss.svg" alt="rss">
-    <img src="./icon/save.svg" alt="save">
-    <img src="./icon/scissors.svg" alt="scissors">
-    <img src="./icon/search.svg" alt="search">
-    <img src="./icon/send.svg" alt="send">
-    <img src="./icon/server.svg" alt="server">
-    <img src="./icon/settings.svg" alt="settings">
-    <img src="./icon/share.svg" alt="share">
-    <img src="./icon/share-2.svg" alt="share-2">
-    <img src="./icon/shield.svg" alt="shield">
-    <img src="./icon/shield-off.svg" alt="shield-off">
-    <img src="./icon/shopping-bag.svg" alt="shopping-bag">
-    <img src="./icon/shopping-cart.svg" alt="shopping-cart">
-    <img src="./icon/shuffle.svg" alt="shuffle">
-    <img src="./icon/sidebar.svg" alt="sidebar">
-    <img src="./icon/skip-back.svg" alt="skip-back">
-    <img src="./icon/skip-forward.svg" alt="skip-forward">
-    <img src="./icon/slack.svg" alt="slack">
-    <img src="./icon/slash.svg" alt="slash">
-    <img src="./icon/sliders.svg" alt="sliders">
-    <img src="./icon/smartphone.svg" alt="smartphone">
-    <img src="./icon/smile.svg" alt="smile">
-    <img src="./icon/speaker.svg" alt="speaker">
-    <img src="./icon/square.svg" alt="square">
-    <img src="./icon/star.svg" alt="star">
-    <img src="./icon/stop-circle.svg" alt="stop-circle">
-    <img src="./icon/sun.svg" alt="sun">
-    <img src="./icon/sunrise.svg" alt="sunrise">
-    <img src="./icon/sunset.svg" alt="sunset">
-    <img src="./icon/table.svg" alt="table">
-    <img src="./icon/tablet.svg" alt="tablet">
-    <img src="./icon/tag.svg" alt="tag">
-    <img src="./icon/target.svg" alt="target">
-    <img src="./icon/terminal.svg" alt="terminal">
-    <img src="./icon/thermometer.svg" alt="thermometer">
-    <img src="./icon/thumbs-down.svg" alt="thumbs-down">
-    <img src="./icon/thumbs-up.svg" alt="thumbs-up">
-    <img src="./icon/toggle-left.svg" alt="toggle-left">
-    <img src="./icon/toggle-right.svg" alt="toggle-right">
-    <img src="./icon/tool.svg" alt="tool">
-    <img src="./icon/trash.svg" alt="trash">
-    <img src="./icon/trash-2.svg" alt="trash-2">
-    <img src="./icon/trello.svg" alt="trello">
-    <img src="./icon/trending-down.svg" alt="trending-down">
-    <img src="./icon/trending-up.svg" alt="trending-up">
-    <img src="./icon/triangle.svg" alt="triangle">
-    <img src="./icon/truck.svg" alt="truck">
-    <img src="./icon/tv.svg" alt="tv">
-    <img src="./icon/twitch.svg" alt="twitch">
-    <img src="./icon/twitter.svg" alt="twitter">
-    <img src="./icon/type.svg" alt="type">
-    <img src="./icon/umbrella.svg" alt="umbrella">
-    <img src="./icon/underline.svg" alt="underline">
-    <img src="./icon/unlock.svg" alt="unlock">
-    <img src="./icon/upload.svg" alt="upload">
-    <img src="./icon/upload-cloud.svg" alt="upload-cloud">
-    <img src="./icon/user.svg" alt="user">
-    <img src="./icon/user-check.svg" alt="user-check">
-    <img src="./icon/user-minus.svg" alt="user-minus">
-    <img src="./icon/user-plus.svg" alt="user-plus">
-    <img src="./icon/user-x.svg" alt="user-x">
-    <img src="./icon/users.svg" alt="users">
-    <img src="./icon/video.svg" alt="video">
-    <img src="./icon/video-off.svg" alt="video-off">
-    <img src="./icon/voicemail.svg" alt="voicemail">
-    <img src="./icon/volume.svg" alt="volume">
-    <img src="./icon/volume-1.svg" alt="volume-1">
-    <img src="./icon/volume-2.svg" alt="volume-2">
-    <img src="./icon/volume-x.svg" alt="volume-x">
-    <img src="./icon/watch.svg" alt="watch">
-    <img src="./icon/wifi.svg" alt="wifi">
-    <img src="./icon/wifi-off.svg" alt="wifi-off">
-    <img src="./icon/wind.svg" alt="wind">
-    <img src="./icon/x.svg" alt="x">
-    <img src="./icon/x-circle.svg" alt="x-circle">
-    <img src="./icon/x-octagon.svg" alt="x-octagon">
-    <img src="./icon/x-square.svg" alt="x-square">
-    <img src="./icon/youtube.svg" alt="youtube">
-    <img src="./icon/zap.svg" alt="zap">
-    <img src="./icon/zap-off.svg" alt="zap-off">
-    <img src="./icon/zoom-in.svg" alt="zoom-in">
-    <img src="./icon/zoom-out.svg" alt="zoom-out">
+<div>
+    <div class="item"><img src="./icon/activity.svg" alt="activity"> <span>activity</span></div>
+    <div class="item"><img src="./icon/airplay.svg" alt="airplay"> <span>airplay</span></div>
+    <div class="item"><img src="./icon/alert-circle.svg" alt="alert-circle"> <span>alert-circle</span></div>
+    <div class="item"><img src="./icon/alert-octagon.svg" alt="alert-octagon"> <span>alert-octagon</span></div>
+    <div class="item"><img src="./icon/alert-triangle.svg" alt="alert-triangle"> <span>alert-triangle</span></div>
+    <div class="item"><img src="./icon/align-center.svg" alt="align-center"> <span>align-center</span></div>
+    <div class="item"><img src="./icon/align-justify.svg" alt="align-justify"> <span>align-justify</span></div>
+    <div class="item"><img src="./icon/align-left.svg" alt="align-left"> <span>align-left</span></div>
+    <div class="item"><img src="./icon/align-right.svg" alt="align-right"> <span>align-right</span></div>
+    <div class="item"><img src="./icon/anchor.svg" alt="anchor"> <span>anchor</span></div>
+    <div class="item"><img src="./icon/aperture.svg" alt="aperture"> <span>aperture</span></div>
+    <div class="item"><img src="./icon/archive.svg" alt="archive"> <span>archive</span></div>
+    <div class="item"><img src="./icon/arrow-down.svg" alt="arrow-down"> <span>arrow-down</span></div>
+    <div class="item"><img src="./icon/arrow-down-circle.svg" alt="arrow-down-circle"> <span>arrow-down-circle</span></div>
+    <div class="item"><img src="./icon/arrow-down-left.svg" alt="arrow-down-left"> <span>arrow-down-left</span></div>
+    <div class="item"><img src="./icon/arrow-down-right.svg" alt="arrow-down-right"> <span>arrow-down-right</span></div>
+    <div class="item"><img src="./icon/arrow-left.svg" alt="arrow-left"> <span>arrow-left</span></div>
+    <div class="item"><img src="./icon/arrow-left-circle.svg" alt="arrow-left-circle"> <span>arrow-left-circle</span></div>
+    <div class="item"><img src="./icon/arrow-right.svg" alt="arrow-right"> <span>arrow-right</span></div>
+    <div class="item"><img src="./icon/arrow-right-circle.svg" alt="arrow-right-circle"> <span>arrow-right-circle</span></div>
+    <div class="item"><img src="./icon/arrow-up.svg" alt="arrow-up"> <span>arrow-up</span></div>
+    <div class="item"><img src="./icon/arrow-up-circle.svg" alt="arrow-up-circle"> <span>arrow-up-circle</span></div>
+    <div class="item"><img src="./icon/arrow-up-left.svg" alt="arrow-up-left"> <span>arrow-up-left</span></div>
+    <div class="item"><img src="./icon/arrow-up-right.svg" alt="arrow-up-right"> <span>arrow-up-right</span></div>
+    <div class="item"><img src="./icon/at-sign.svg" alt="at-sign"> <span>at-sign</span></div>
+    <div class="item"><img src="./icon/award.svg" alt="award"> <span>award</span></div>
+    <div class="item"><img src="./icon/bar-chart.svg" alt="bar-chart"> <span>bar-chart</span></div>
+    <div class="item"><img src="./icon/bar-chart-2.svg" alt="bar-chart-2"> <span>bar-chart-2</span></div>
+    <div class="item"><img src="./icon/battery.svg" alt="battery"> <span>battery</span></div>
+    <div class="item"><img src="./icon/battery-charging.svg" alt="battery-charging"> <span>battery-charging</span></div>
+    <div class="item"><img src="./icon/bell.svg" alt="bell"> <span>bell</span></div>
+    <div class="item"><img src="./icon/bell-off.svg" alt="bell-off"> <span>bell-off</span></div>
+    <div class="item"><img src="./icon/bluetooth.svg" alt="bluetooth"> <span>bluetooth</span></div>
+    <div class="item"><img src="./icon/bold.svg" alt="bold"> <span>bold</span></div>
+    <div class="item"><img src="./icon/book.svg" alt="book"> <span>book</span></div>
+    <div class="item"><img src="./icon/book-open.svg" alt="book-open"> <span>book-open</span></div>
+    <div class="item"><img src="./icon/bookmark.svg" alt="bookmark"> <span>bookmark</span></div>
+    <div class="item"><img src="./icon/box.svg" alt="box"> <span>box</span></div>
+    <div class="item"><img src="./icon/briefcase.svg" alt="briefcase"> <span>briefcase</span></div>
+    <div class="item"><img src="./icon/calendar.svg" alt="calendar"> <span>calendar</span></div>
+    <div class="item"><img src="./icon/camera.svg" alt="camera"> <span>camera</span></div>
+    <div class="item"><img src="./icon/camera-off.svg" alt="camera-off"> <span>camera-off</span></div>
+    <div class="item"><img src="./icon/cast.svg" alt="cast"> <span>cast</span></div>
+    <div class="item"><img src="./icon/check.svg" alt="check"> <span>check</span></div>
+    <div class="item"><img src="./icon/check-circle.svg" alt="check-circle"> <span>check-circle</span></div>
+    <div class="item"><img src="./icon/check-square.svg" alt="check-square"> <span>check-square</span></div>
+    <div class="item"><img src="./icon/chevron-down.svg" alt="chevron-down"> <span>chevron-down</span></div>
+    <div class="item"><img src="./icon/chevron-left.svg" alt="chevron-left"> <span>chevron-left</span></div>
+    <div class="item"><img src="./icon/chevron-right.svg" alt="chevron-right"> <span>chevron-right</span></div>
+    <div class="item"><img src="./icon/chevron-up.svg" alt="chevron-up"> <span>chevron-up</span></div>
+    <div class="item"><img src="./icon/chevrons-down.svg" alt="chevrons-down"> <span>chevrons-down</span></div>
+    <div class="item"><img src="./icon/chevrons-left.svg" alt="chevrons-left"> <span>chevrons-left</span></div>
+    <div class="item"><img src="./icon/chevrons-right.svg" alt="chevrons-right"> <span>chevrons-right</span></div>
+    <div class="item"><img src="./icon/chevrons-up.svg" alt="chevrons-up"> <span>chevrons-up</span></div>
+    <div class="item"><img src="./icon/chrome.svg" alt="chrome"> <span>chrome</span></div>
+    <div class="item"><img src="./icon/circle.svg" alt="circle"> <span>circle</span></div>
+    <div class="item"><img src="./icon/clipboard.svg" alt="clipboard"> <span>clipboard</span></div>
+    <div class="item"><img src="./icon/clock.svg" alt="clock"> <span>clock</span></div>
+    <div class="item"><img src="./icon/cloud.svg" alt="cloud"> <span>cloud</span></div>
+    <div class="item"><img src="./icon/cloud-drizzle.svg" alt="cloud-drizzle"> <span>cloud-drizzle</span></div>
+    <div class="item"><img src="./icon/cloud-lightning.svg" alt="cloud-lightning"> <span>cloud-lightning</span></div>
+    <div class="item"><img src="./icon/cloud-off.svg" alt="cloud-off"> <span>cloud-off</span></div>
+    <div class="item"><img src="./icon/cloud-rain.svg" alt="cloud-rain"> <span>cloud-rain</span></div>
+    <div class="item"><img src="./icon/cloud-snow.svg" alt="cloud-snow"> <span>cloud-snow</span></div>
+    <div class="item"><img src="./icon/code.svg" alt="code"> <span>code</span></div>
+    <div class="item"><img src="./icon/codepen.svg" alt="codepen"> <span>codepen</span></div>
+    <div class="item"><img src="./icon/codesandbox.svg" alt="codesandbox"> <span>codesandbox</span></div>
+    <div class="item"><img src="./icon/coffee.svg" alt="coffee"> <span>coffee</span></div>
+    <div class="item"><img src="./icon/columns.svg" alt="columns"> <span>columns</span></div>
+    <div class="item"><img src="./icon/command.svg" alt="command"> <span>command</span></div>
+    <div class="item"><img src="./icon/compass.svg" alt="compass"> <span>compass</span></div>
+    <div class="item"><img src="./icon/copy.svg" alt="copy"> <span>copy</span></div>
+    <div class="item"><img src="./icon/corner-down-left.svg" alt="corner-down-left"> <span>corner-down-left</span></div>
+    <div class="item"><img src="./icon/corner-down-right.svg" alt="corner-down-right"> <span>corner-down-right</span></div>
+    <div class="item"><img src="./icon/corner-left-down.svg" alt="corner-left-down"> <span>corner-left-down</span></div>
+    <div class="item"><img src="./icon/corner-left-up.svg" alt="corner-left-up"> <span>corner-left-up</span></div>
+    <div class="item"><img src="./icon/corner-right-down.svg" alt="corner-right-down"> <span>corner-right-down</span></div>
+    <div class="item"><img src="./icon/corner-right-up.svg" alt="corner-right-up"> <span>corner-right-up</span></div>
+    <div class="item"><img src="./icon/corner-up-left.svg" alt="corner-up-left"> <span>corner-up-left</span></div>
+    <div class="item"><img src="./icon/corner-up-right.svg" alt="corner-up-right"> <span>corner-up-right</span></div>
+    <div class="item"><img src="./icon/cpu.svg" alt="cpu"> <span>cpu</span></div>
+    <div class="item"><img src="./icon/credit-card.svg" alt="credit-card"> <span>credit-card</span></div>
+    <div class="item"><img src="./icon/crop.svg" alt="crop"> <span>crop</span></div>
+    <div class="item"><img src="./icon/crosshair.svg" alt="crosshair"> <span>crosshair</span></div>
+    <div class="item"><img src="./icon/database.svg" alt="database"> <span>database</span></div>
+    <div class="item"><img src="./icon/delete.svg" alt="delete"> <span>delete</span></div>
+    <div class="item"><img src="./icon/disc.svg" alt="disc"> <span>disc</span></div>
+    <div class="item"><img src="./icon/divide.svg" alt="divide"> <span>divide</span></div>
+    <div class="item"><img src="./icon/divide-circle.svg" alt="divide-circle"> <span>divide-circle</span></div>
+    <div class="item"><img src="./icon/divide-square.svg" alt="divide-square"> <span>divide-square</span></div>
+    <div class="item"><img src="./icon/dollar-sign.svg" alt="dollar-sign"> <span>dollar-sign</span></div>
+    <div class="item"><img src="./icon/download.svg" alt="download"> <span>download</span></div>
+    <div class="item"><img src="./icon/download-cloud.svg" alt="download-cloud"> <span>download-cloud</span></div>
+    <div class="item"><img src="./icon/droplet.svg" alt="droplet"> <span>droplet</span></div>
+    <div class="item"><img src="./icon/edit.svg" alt="edit"> <span>edit</span></div>
+    <div class="item"><img src="./icon/edit-2.svg" alt="edit-2"> <span>edit-2</span></div>
+    <div class="item"><img src="./icon/edit-3.svg" alt="edit-3"> <span>edit-3</span></div>
+    <div class="item"><img src="./icon/external-link.svg" alt="external-link"> <span>external-link</span></div>
+    <div class="item"><img src="./icon/eye.svg" alt="eye"> <span>eye</span></div>
+    <div class="item"><img src="./icon/eye-off.svg" alt="eye-off"> <span>eye-off</span></div>
+    <div class="item"><img src="./icon/facebook.svg" alt="facebook"> <span>facebook</span></div>
+    <div class="item"><img src="./icon/fast-forward.svg" alt="fast-forward"> <span>fast-forward</span></div>
+    <div class="item"><img src="./icon/feather.svg" alt="feather"> <span>feather</span></div>
+    <div class="item"><img src="./icon/figma.svg" alt="figma"> <span>figma</span></div>
+    <div class="item"><img src="./icon/file.svg" alt="file"> <span>file</span></div>
+    <div class="item"><img src="./icon/file-minus.svg" alt="file-minus"> <span>file-minus</span></div>
+    <div class="item"><img src="./icon/file-plus.svg" alt="file-plus"> <span>file-plus</span></div>
+    <div class="item"><img src="./icon/file-text.svg" alt="file-text"> <span>file-text</span></div>
+    <div class="item"><img src="./icon/film.svg" alt="film"> <span>film</span></div>
+    <div class="item"><img src="./icon/filter.svg" alt="filter"> <span>filter</span></div>
+    <div class="item"><img src="./icon/flag.svg" alt="flag"> <span>flag</span></div>
+    <div class="item"><img src="./icon/folder.svg" alt="folder"> <span>folder</span></div>
+    <div class="item"><img src="./icon/folder-minus.svg" alt="folder-minus"> <span>folder-minus</span></div>
+    <div class="item"><img src="./icon/folder-plus.svg" alt="folder-plus"> <span>folder-plus</span></div>
+    <div class="item"><img src="./icon/framer.svg" alt="framer"> <span>framer</span></div>
+    <div class="item"><img src="./icon/frown.svg" alt="frown"> <span>frown</span></div>
+    <div class="item"><img src="./icon/gift.svg" alt="gift"> <span>gift</span></div>
+    <div class="item"><img src="./icon/git-branch.svg" alt="git-branch"> <span>git-branch</span></div>
+    <div class="item"><img src="./icon/git-commit.svg" alt="git-commit"> <span>git-commit</span></div>
+    <div class="item"><img src="./icon/git-merge.svg" alt="git-merge"> <span>git-merge</span></div>
+    <div class="item"><img src="./icon/git-pull-request.svg" alt="git-pull-request"> <span>git-pull-request</span></div>
+    <div class="item"><img src="./icon/github.svg" alt="github"> <span>github</span></div>
+    <div class="item"><img src="./icon/gitlab.svg" alt="gitlab"> <span>gitlab</span></div>
+    <div class="item"><img src="./icon/globe.svg" alt="globe"> <span>globe</span></div>
+    <div class="item"><img src="./icon/grid.svg" alt="grid"> <span>grid</span></div>
+    <div class="item"><img src="./icon/hard-drive.svg" alt="hard-drive"> <span>hard-drive</span></div>
+    <div class="item"><img src="./icon/hash.svg" alt="hash"> <span>hash</span></div>
+    <div class="item"><img src="./icon/headphones.svg" alt="headphones"> <span>headphones</span></div>
+    <div class="item"><img src="./icon/heart.svg" alt="heart"> <span>heart</span></div>
+    <div class="item"><img src="./icon/help-circle.svg" alt="help-circle"> <span>help-circle</span></div>
+    <div class="item"><img src="./icon/hexagon.svg" alt="hexagon"> <span>hexagon</span></div>
+    <div class="item"><img src="./icon/home.svg" alt="home"> <span>home</span></div>
+    <div class="item"><img src="./icon/image.svg" alt="image"> <span>image</span></div>
+    <div class="item"><img src="./icon/inbox.svg" alt="inbox"> <span>inbox</span></div>
+    <div class="item"><img src="./icon/info.svg" alt="info"> <span>info</span></div>
+    <div class="item"><img src="./icon/instagram.svg" alt="instagram"> <span>instagram</span></div>
+    <div class="item"><img src="./icon/italic.svg" alt="italic"> <span>italic</span></div>
+    <div class="item"><img src="./icon/key.svg" alt="key"> <span>key</span></div>
+    <div class="item"><img src="./icon/layers.svg" alt="layers"> <span>layers</span></div>
+    <div class="item"><img src="./icon/layout.svg" alt="layout"> <span>layout</span></div>
+    <div class="item"><img src="./icon/life-buoy.svg" alt="life-buoy"> <span>life-buoy</span></div>
+    <div class="item"><img src="./icon/link.svg" alt="link"> <span>link</span></div>
+    <div class="item"><img src="./icon/link-2.svg" alt="link-2"> <span>link-2</span></div>
+    <div class="item"><img src="./icon/linkedin.svg" alt="linkedin"> <span>linkedin</span></div>
+    <div class="item"><img src="./icon/list.svg" alt="list"> <span>list</span></div>
+    <div class="item"><img src="./icon/loader.svg" alt="loader"> <span>loader</span></div>
+    <div class="item"><img src="./icon/lock.svg" alt="lock"> <span>lock</span></div>
+    <div class="item"><img src="./icon/log-in.svg" alt="log-in"> <span>log-in</span></div>
+    <div class="item"><img src="./icon/log-out.svg" alt="log-out"> <span>log-out</span></div>
+    <div class="item"><img src="./icon/mail.svg" alt="mail"> <span>mail</span></div>
+    <div class="item"><img src="./icon/map.svg" alt="map"> <span>map</span></div>
+    <div class="item"><img src="./icon/map-pin.svg" alt="map-pin"> <span>map-pin</span></div>
+    <div class="item"><img src="./icon/maximize.svg" alt="maximize"> <span>maximize</span></div>
+    <div class="item"><img src="./icon/maximize-2.svg" alt="maximize-2"> <span>maximize-2</span></div>
+    <div class="item"><img src="./icon/meh.svg" alt="meh"> <span>meh</span></div>
+    <div class="item"><img src="./icon/menu.svg" alt="menu"> <span>menu</span></div>
+    <div class="item"><img src="./icon/message-circle.svg" alt="message-circle"> <span>message-circle</span></div>
+    <div class="item"><img src="./icon/message-square.svg" alt="message-square"> <span>message-square</span></div>
+    <div class="item"><img src="./icon/mic.svg" alt="mic"> <span>mic</span></div>
+    <div class="item"><img src="./icon/mic-off.svg" alt="mic-off"> <span>mic-off</span></div>
+    <div class="item"><img src="./icon/minimize.svg" alt="minimize"> <span>minimize</span></div>
+    <div class="item"><img src="./icon/minimize-2.svg" alt="minimize-2"> <span>minimize-2</span></div>
+    <div class="item"><img src="./icon/minus.svg" alt="minus"> <span>minus</span></div>
+    <div class="item"><img src="./icon/minus-circle.svg" alt="minus-circle"> <span>minus-circle</span></div>
+    <div class="item"><img src="./icon/minus-square.svg" alt="minus-square"> <span>minus-square</span></div>
+    <div class="item"><img src="./icon/monitor.svg" alt="monitor"> <span>monitor</span></div>
+    <div class="item"><img src="./icon/moon.svg" alt="moon"> <span>moon</span></div>
+    <div class="item"><img src="./icon/more-horizontal.svg" alt="more-horizontal"> <span>more-horizontal</span></div>
+    <div class="item"><img src="./icon/more-vertical.svg" alt="more-vertical"> <span>more-vertical</span></div>
+    <div class="item"><img src="./icon/mouse-pointer.svg" alt="mouse-pointer"> <span>mouse-pointer</span></div>
+    <div class="item"><img src="./icon/move.svg" alt="move"> <span>move</span></div>
+    <div class="item"><img src="./icon/music.svg" alt="music"> <span>music</span></div>
+    <div class="item"><img src="./icon/navigation.svg" alt="navigation"> <span>navigation</span></div>
+    <div class="item"><img src="./icon/navigation-2.svg" alt="navigation-2"> <span>navigation-2</span></div>
+    <div class="item"><img src="./icon/octagon.svg" alt="octagon"> <span>octagon</span></div>
+    <div class="item"><img src="./icon/package.svg" alt="package"> <span>package</span></div>
+    <div class="item"><img src="./icon/paperclip.svg" alt="paperclip"> <span>paperclip</span></div>
+    <div class="item"><img src="./icon/pause.svg" alt="pause"> <span>pause</span></div>
+    <div class="item"><img src="./icon/pause-circle.svg" alt="pause-circle"> <span>pause-circle</span></div>
+    <div class="item"><img src="./icon/pen-tool.svg" alt="pen-tool"> <span>pen-tool</span></div>
+    <div class="item"><img src="./icon/percent.svg" alt="percent"> <span>percent</span></div>
+    <div class="item"><img src="./icon/phone.svg" alt="phone"> <span>phone</span></div>
+    <div class="item"><img src="./icon/phone-call.svg" alt="phone-call"> <span>phone-call</span></div>
+    <div class="item"><img src="./icon/phone-forwarded.svg" alt="phone-forwarded"> <span>phone-forwarded</span></div>
+    <div class="item"><img src="./icon/phone-incoming.svg" alt="phone-incoming"> <span>phone-incoming</span></div>
+    <div class="item"><img src="./icon/phone-missed.svg" alt="phone-missed"> <span>phone-missed</span></div>
+    <div class="item"><img src="./icon/phone-off.svg" alt="phone-off"> <span>phone-off</span></div>
+    <div class="item"><img src="./icon/phone-outgoing.svg" alt="phone-outgoing"> <span>phone-outgoing</span></div>
+    <div class="item"><img src="./icon/pie-chart.svg" alt="pie-chart"> <span>pie-chart</span></div>
+    <div class="item"><img src="./icon/play.svg" alt="play"> <span>play</span></div>
+    <div class="item"><img src="./icon/play-circle.svg" alt="play-circle"> <span>play-circle</span></div>
+    <div class="item"><img src="./icon/plus.svg" alt="plus"> <span>plus</span></div>
+    <div class="item"><img src="./icon/plus-circle.svg" alt="plus-circle"> <span>plus-circle</span></div>
+    <div class="item"><img src="./icon/plus-square.svg" alt="plus-square"> <span>plus-square</span></div>
+    <div class="item"><img src="./icon/pocket.svg" alt="pocket"> <span>pocket</span></div>
+    <div class="item"><img src="./icon/power.svg" alt="power"> <span>power</span></div>
+    <div class="item"><img src="./icon/printer.svg" alt="printer"> <span>printer</span></div>
+    <div class="item"><img src="./icon/radio.svg" alt="radio"> <span>radio</span></div>
+    <div class="item"><img src="./icon/refresh-ccw.svg" alt="refresh-ccw"> <span>refresh-ccw</span></div>
+    <div class="item"><img src="./icon/refresh-cw.svg" alt="refresh-cw"> <span>refresh-cw</span></div>
+    <div class="item"><img src="./icon/repeat.svg" alt="repeat"> <span>repeat</span></div>
+    <div class="item"><img src="./icon/rewind.svg" alt="rewind"> <span>rewind</span></div>
+    <div class="item"><img src="./icon/rotate-ccw.svg" alt="rotate-ccw"> <span>rotate-ccw</span></div>
+    <div class="item"><img src="./icon/rotate-cw.svg" alt="rotate-cw"> <span>rotate-cw</span></div>
+    <div class="item"><img src="./icon/rss.svg" alt="rss"> <span>rss</span></div>
+    <div class="item"><img src="./icon/save.svg" alt="save"> <span>save</span></div>
+    <div class="item"><img src="./icon/scissors.svg" alt="scissors"> <span>scissors</span></div>
+    <div class="item"><img src="./icon/search.svg" alt="search"> <span>search</span></div>
+    <div class="item"><img src="./icon/send.svg" alt="send"> <span>send</span></div>
+    <div class="item"><img src="./icon/server.svg" alt="server"> <span>server</span></div>
+    <div class="item"><img src="./icon/settings.svg" alt="settings"> <span>settings</span></div>
+    <div class="item"><img src="./icon/share.svg" alt="share"> <span>share</span></div>
+    <div class="item"><img src="./icon/share-2.svg" alt="share-2"> <span>share-2</span></div>
+    <div class="item"><img src="./icon/shield.svg" alt="shield"> <span>shield</span></div>
+    <div class="item"><img src="./icon/shield-off.svg" alt="shield-off"> <span>shield-off</span></div>
+    <div class="item"><img src="./icon/shopping-bag.svg" alt="shopping-bag"> <span>shopping-bag</span></div>
+    <div class="item"><img src="./icon/shopping-cart.svg" alt="shopping-cart"> <span>shopping-cart</span></div>
+    <div class="item"><img src="./icon/shuffle.svg" alt="shuffle"> <span>shuffle</span></div>
+    <div class="item"><img src="./icon/sidebar.svg" alt="sidebar"> <span>sidebar</span></div>
+    <div class="item"><img src="./icon/skip-back.svg" alt="skip-back"> <span>skip-back</span></div>
+    <div class="item"><img src="./icon/skip-forward.svg" alt="skip-forward"> <span>skip-forward</span></div>
+    <div class="item"><img src="./icon/slack.svg" alt="slack"> <span>slack</span></div>
+    <div class="item"><img src="./icon/slash.svg" alt="slash"> <span>slash</span></div>
+    <div class="item"><img src="./icon/sliders.svg" alt="sliders"> <span>sliders</span></div>
+    <div class="item"><img src="./icon/smartphone.svg" alt="smartphone"> <span>smartphone</span></div>
+    <div class="item"><img src="./icon/smile.svg" alt="smile"> <span>smile</span></div>
+    <div class="item"><img src="./icon/speaker.svg" alt="speaker"> <span>speaker</span></div>
+    <div class="item"><img src="./icon/square.svg" alt="square"> <span>square</span></div>
+    <div class="item"><img src="./icon/star.svg" alt="star"> <span>star</span></div>
+    <div class="item"><img src="./icon/stop-circle.svg" alt="stop-circle"> <span>stop-circle</span></div>
+    <div class="item"><img src="./icon/sun.svg" alt="sun"> <span>sun</span></div>
+    <div class="item"><img src="./icon/sunrise.svg" alt="sunrise"> <span>sunrise</span></div>
+    <div class="item"><img src="./icon/sunset.svg" alt="sunset"> <span>sunset</span></div>
+    <div class="item"><img src="./icon/table.svg" alt="table"> <span>table</span></div>
+    <div class="item"><img src="./icon/tablet.svg" alt="tablet"> <span>tablet</span></div>
+    <div class="item"><img src="./icon/tag.svg" alt="tag"> <span>tag</span></div>
+    <div class="item"><img src="./icon/target.svg" alt="target"> <span>target</span></div>
+    <div class="item"><img src="./icon/terminal.svg" alt="terminal"> <span>terminal</span></div>
+    <div class="item"><img src="./icon/thermometer.svg" alt="thermometer"> <span>thermometer</span></div>
+    <div class="item"><img src="./icon/thumbs-down.svg" alt="thumbs-down"> <span>thumbs-down</span></div>
+    <div class="item"><img src="./icon/thumbs-up.svg" alt="thumbs-up"> <span>thumbs-up</span></div>
+    <div class="item"><img src="./icon/time.svg" alt="time"> <span>time</span></div>
+    <div class="item"><img src="./icon/toggle-left.svg" alt="toggle-left"> <span>toggle-left</span></div>
+    <div class="item"><img src="./icon/toggle-right.svg" alt="toggle-right"> <span>toggle-right</span></div>
+    <div class="item"><img src="./icon/tool.svg" alt="tool"> <span>tool</span></div>
+    <div class="item"><img src="./icon/trash.svg" alt="trash"> <span>trash</span></div>
+    <div class="item"><img src="./icon/trash-2.svg" alt="trash-2"> <span>trash-2</span></div>
+    <div class="item"><img src="./icon/trello.svg" alt="trello"> <span>trello</span></div>
+    <div class="item"><img src="./icon/trending-down.svg" alt="trending-down"> <span>trending-down</span></div>
+    <div class="item"><img src="./icon/trending-up.svg" alt="trending-up"> <span>trending-up</span></div>
+    <div class="item"><img src="./icon/triangle.svg" alt="triangle"> <span>triangle</span></div>
+    <div class="item"><img src="./icon/truck.svg" alt="truck"> <span>truck</span></div>
+    <div class="item"><img src="./icon/tv.svg" alt="tv"> <span>tv</span></div>
+    <div class="item"><img src="./icon/twitch.svg" alt="twitch"> <span>twitch</span></div>
+    <div class="item"><img src="./icon/twitter.svg" alt="twitter"> <span>twitter</span></div>
+    <div class="item"><img src="./icon/type.svg" alt="type"> <span>type</span></div>
+    <div class="item"><img src="./icon/umbrella.svg" alt="umbrella"> <span>umbrella</span></div>
+    <div class="item"><img src="./icon/underline.svg" alt="underline"> <span>underline</span></div>
+    <div class="item"><img src="./icon/unlock.svg" alt="unlock"> <span>unlock</span></div>
+    <div class="item"><img src="./icon/upload.svg" alt="upload"> <span>upload</span></div>
+    <div class="item"><img src="./icon/upload-cloud.svg" alt="upload-cloud"> <span>upload-cloud</span></div>
+    <div class="item"><img src="./icon/user.svg" alt="user"> <span>user</span></div>
+    <div class="item"><img src="./icon/user-check.svg" alt="user-check"> <span>user-check</span></div>
+    <div class="item"><img src="./icon/user-minus.svg" alt="user-minus"> <span>user-minus</span></div>
+    <div class="item"><img src="./icon/user-plus.svg" alt="user-plus"> <span>user-plus</span></div>
+    <div class="item"><img src="./icon/user-x.svg" alt="user-x"> <span>user-x</span></div>
+    <div class="item"><img src="./icon/users.svg" alt="users"> <span>users</span></div>
+    <div class="item"><img src="./icon/video.svg" alt="video"> <span>video</span></div>
+    <div class="item"><img src="./icon/video-off.svg" alt="video-off"> <span>video-off</span></div>
+    <div class="item"><img src="./icon/voicemail.svg" alt="voicemail"> <span>voicemail</span></div>
+    <div class="item"><img src="./icon/volume.svg" alt="volume"> <span>volume</span></div>
+    <div class="item"><img src="./icon/volume-1.svg" alt="volume-1"> <span>volume-1</span></div>
+    <div class="item"><img src="./icon/volume-2.svg" alt="volume-2"> <span>volume-2</span></div>
+    <div class="item"><img src="./icon/volume-x.svg" alt="volume-x"> <span>volume-x</span></div>
+    <div class="item"><img src="./icon/watch.svg" alt="watch"> <span>watch</span></div>
+    <div class="item"><img src="./icon/wifi.svg" alt="wifi"> <span>wifi</span></div>
+    <div class="item"><img src="./icon/wifi-off.svg" alt="wifi-off"> <span>wifi-off</span></div>
+    <div class="item"><img src="./icon/wind.svg" alt="wind"> <span>wind</span></div>
+    <div class="item"><img src="./icon/x.svg" alt="x"> <span>x</span></div>
+    <div class="item"><img src="./icon/x-circle.svg" alt="x-circle"> <span>x-circle</span></div>
+    <div class="item"><img src="./icon/x-octagon.svg" alt="x-octagon"> <span>x-octagon</span></div>
+    <div class="item"><img src="./icon/x-square.svg" alt="x-square"> <span>x-square</span></div>
+    <div class="item"><img src="./icon/youtube.svg" alt="youtube"> <span>youtube</span></div>
+    <div class="item"><img src="./icon/zap.svg" alt="zap"> <span>zap</span></div>
+    <div class="item"><img src="./icon/zap-off.svg" alt="zap-off"> <span>zap-off</span></div>
+    <div class="item"><img src="./icon/zoom-in.svg" alt="zoom-in"> <span>zoom-in</span></div>
+    <div class="item"><img src="./icon/zoom-out.svg" alt="zoom-out"> <span>zoom-out</span></div>
 </div>
 </body>
 </html>
